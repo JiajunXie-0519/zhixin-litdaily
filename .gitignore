@@ -1,0 +1,26 @@
+# 个人数据
+data/state.json
+data/runtime.json
+data/server.log*
+data/zotero-cache.json
+data/*.tmp
+data/*.restore.tmp
+data/*.corrupt-*.json
+data/*.db
+data/backups/
+
+# 本地浏览器与测试产物
+.edge-*/
+.tmp-*/
+.tmp-*
+.dist/
+*.zip
+reports/demo-state.json
+reports/_test_report.html
+reports/_crop-*.png
+tools/*.mjs
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
